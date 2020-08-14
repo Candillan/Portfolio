@@ -12,13 +12,24 @@ class MainPage extends React.Component {
         this.setState({ page: newPage })
     }
 
+    display = () => {
+        let page = this.state.page
+        switch(page){
+            case 'aboutMe':
+                return <AboutMe/>;
+            case 'Projects':
+                return <Projects/>;
+            default:
+                console.log("home")
+        }
+    }
+
     render(){
         return(
             <div>
                 {console.log(this.state.page)}
                 <Menu updateState={this.updateState}/>
-                <AboutMe/>
-                <Projects/>
+                {this.display()}
             </div>
         )
     }  
