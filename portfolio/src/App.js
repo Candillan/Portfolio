@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import AboutMe from './aboutMe.js';
-import Projects from './projects.js';
-import Menu from './menu.js';
+import MainPage from './mainPage.js';
 
 /* **TODO** */
 
@@ -16,9 +14,7 @@ function App() {
   return (
     <div>
       {console.log("Make buttons that switch which data is shown from the modules")}
-      <Menu/>
-      <AboutMe/>
-      <Projects/>
+      <MainPage/>
     </div>
   )
 }
