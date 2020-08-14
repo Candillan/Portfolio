@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Menu(){
+function Menu(props){
     return(
         <div>
-            <button onClick={() => {console.log("clicked home")}}>Home</button>
-            <button onClick={() => {console.log("clicked portfolio")}}>Portfolio</button>
-            <button onClick={() => {console.log("clicked resume")}}>Resume</button>
+            <button onClick={() => {props.updateState("Home")}}>Home</button>
+            <button onClick={() => {props.updateState("aboutMe")}}>Portfolio</button>
+            <button onClick={() => {props.updateState("Projects")}}>Resume</button>
         </div>
     )
 }

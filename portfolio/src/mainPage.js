@@ -4,11 +4,19 @@ import Projects from './projects.js';
 import Menu from './menu.js';
 
 class MainPage extends React.Component {
+    state = {
+        page: "aboutMe"
+    }
+
+    updateState = (newPage) => {
+        this.setState({ page: newPage })
+    }
+
     render(){
         return(
             <div>
-                {console.log("Make buttons that switch which data is shown from the modules")}
-                <Menu/>
+                {console.log(this.state.page)}
+                <Menu updateState={this.updateState}/>
                 <AboutMe/>
                 <Projects/>
             </div>
