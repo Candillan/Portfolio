@@ -29,7 +29,7 @@ class MainPage extends React.Component {
             <div>
                 {console.log(this.state.page)}
                 <Menu updateState={this.updateState}/>
-                {this.display()}
+                {(this.state.page == "Home") ? <div>Home Page Text</div> : this.display()}
             </div>
         )
     }  
