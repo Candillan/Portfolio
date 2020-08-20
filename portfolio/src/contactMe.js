@@ -1,5 +1,9 @@
 import React from 'react';
 
+//look into using icons instead of buttons/hyperlinks
+//consider having these as a module on the greater page rather than a separate page
+//STYLING
+
 function ContactMe(){
     return(
         <div>
