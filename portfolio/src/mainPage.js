@@ -15,7 +15,7 @@ class MainPage extends React.Component {
     display = () => {
         let page = this.state.page
         switch(page){
-            case 'aboutMe':
+            case 'AboutMe':
                 return <AboutMe/>;
             case 'Projects':
                 return <Projects/>;
