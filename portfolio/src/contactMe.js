@@ -7,7 +7,7 @@ function ContactMe(){
             <div>LinkedIn</div>
             <div>GitHub</div>
             <div>Email</div>
-            {console.log("Hello from aboutme")}
+            {console.log("Hello from contact page")}
         </div>
     )
 }
