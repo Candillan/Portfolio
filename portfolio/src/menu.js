@@ -6,6 +6,7 @@ function Menu(props){
             <button onClick={() => {props.updateState("Home")}}>Home</button>
             <button onClick={() => {props.updateState("AboutMe")}}>About Me</button>
             <button onClick={() => {props.updateState("Projects")}}>Portfolio</button>
+            <button onClick={() => {props.updateState("ContactMe")}}>Contact Me</button>
         </div>
     )
 }

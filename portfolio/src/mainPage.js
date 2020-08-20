@@ -2,6 +2,7 @@ import React from 'react';
 import AboutMe from './aboutMe.js';
 import Projects from './projects.js';
 import Menu from './menu.js';
+import ContactMe from './contactMe.js';
 
 class MainPage extends React.Component {
     state = {
@@ -19,6 +20,8 @@ class MainPage extends React.Component {
                 return <AboutMe/>;
             case 'Projects':
                 return <Projects/>;
+            case 'ContactMe':
+                return <ContactMe/>;
             default:
                 console.log("home")
         }
