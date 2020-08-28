@@ -6,7 +6,7 @@ import ContactMe from './contactMe.js';
 
 class MainPage extends React.Component {
     state = {
-        page: "aboutMe"
+        page: "Home"
     }
 
     updateState = (newPage) => {
