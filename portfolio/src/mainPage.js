@@ -32,6 +32,14 @@ class MainPage extends React.Component {
         }
     }
 
+    theme = () => {
+        if (this.state.theme === "light"){
+            //enter color theme CSS changing function here
+        } else if (this.state.theme === "dark"){
+            //enter color theme CSS changing function here
+        }
+    }
+
     render(){
         return(
             <div>
