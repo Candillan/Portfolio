@@ -12,7 +12,9 @@ class MainPage extends React.Component {
     updateState = (newPage) => {
         this.setState({ 
             page: newPage,
-            navigations: 0
+            navigations: 0,
+            hiddenCounter: 0,
+            theme: "light"
          })
     }
 
