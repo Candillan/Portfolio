@@ -7,6 +7,7 @@ import MainPage from './mainPage.js';
 //change it so that app accesses a container that is the real home page, with states (not hooks)
 //add functionality (ternaries?) for seamless smooth SPA action.
 //look into asking friends (ian?) for CSS advice
+//look into looking up and importing different libraries
 
 
 
