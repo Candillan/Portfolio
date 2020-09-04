@@ -10,7 +10,10 @@ class MainPage extends React.Component {
     }
 
     updateState = (newPage) => {
-        this.setState({ page: newPage })
+        this.setState({ 
+            page: newPage,
+            navigations: 0
+         })
     }
 
     display = () => {
